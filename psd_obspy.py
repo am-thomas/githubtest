@@ -84,8 +84,6 @@ def plot_split(utc_starttime, plot_chan, n_segments=4, total_duration=20):
         ppsd.plot()
     plt.show()
 
-    print('hello')
-
 if __name__ == '__main__':
     starttime = time_3wkday[1]
     plot_split(starttime, plot_chan='HH1')
